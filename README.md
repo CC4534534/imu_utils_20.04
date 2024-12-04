@@ -46,8 +46,11 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
 ### to build
 
 ```
+sudo apt-get update
 sudo apt-get install libdw-dev
 sudo apt-get install libceres-dev
+sudo apt-get install ros-noetic-cv-bridge
+
 ```
 
 * download required [`code_utils`](https://github.com/gaowenliang/code_utils "code_utils");
