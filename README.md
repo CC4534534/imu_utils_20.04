@@ -47,11 +47,13 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
 
 ```
 sudo apt-get install libdw-dev
+sudo apt-get install libceres-dev
 ```
 
 * download required [`code_utils`](https://github.com/gaowenliang/code_utils "code_utils");
 
-* put the ROS package `imu_utils` and `code_utils` into your workspace, usually named `catkin_ws`;
+* put the ROS package `imu_utils` and `code_utils` into your workspace/src, usually named `catkin_ws`;
+* remember to build code_utils first or it will fail
 
 * cd to your workspace, build with `catkin_make`;
 
